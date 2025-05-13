@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- title -->
+    <title>Tesla_ELeMotex - Car Dealership That You Can Trust</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="{% static 'frontend/assets/img/logo/favicon.png' %}">
+
+    <!-- css -->
+    <link rel="stylesheet" href="{% static 'frontend/assets/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'frontend/assets/css/all-fontawesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'frontend/assets/css/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'frontend/assets/css/animate.min.css' %}">
+    <link rel="stylesheet" href="{% static 'frontend/assets/css/magnific-popup.min.css' %}">
+    <link rel="stylesheet" href="{% static 'frontend/assets/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'frontend/assets/css/jquery-ui.min.css' %}">
+    <link rel="stylesheet" href="{% static 'frontend/assets/css/nice-select.min.css' %}">
+    <link rel="stylesheet" href="{% static 'frontend/assets/css/style.css' %}">
+
+</head>
+
+<body class="home-2">
+
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="loader-ripple">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- preloader end -->
+
+    <!-- contents start here -->
+        {% include './includes/navbar.html' %}
+        <main class="main">
+        {% block content %}
+        {% endblock %}
+        </main>
+        {% include './includes/footer.html' %}
+    <!-- contents end here -->
+    
+    <!-- scroll-top -->
+    <a href="#" id="scroll-top"><i class="far fa-arrow-up"></i></a>
+    <!-- scroll-top end -->
+
+
+    <!-- js -->
+    <!-- <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script> -->
+    <script src="{% static 'frontend/assets/js/jquery-3.6.0.min.js' %}"></script>
+    <script src="{% static 'frontend/assets/js/modernizr.min.js' %}"></script>
+    <script src="{% static 'frontend/assets/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'frontend/assets/js/imagesloaded.pkgd.min.js' %}"></script>
+    <script src="{% static 'frontend/assets/js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'frontend/assets/js/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static 'frontend/assets/js/jquery.appear.min.js' %}"></script>
+    <script src="{% static 'frontend/assets/js/jquery.easing.min.js' %}"></script>
+    <script src="{% static 'frontend/assets/js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'frontend/assets/js/counter-up.js' %}"></script>
+    <script src="{% static 'frontend/assets/js/jquery-ui.min.js' %}"></script>
+    <script src="{% static 'frontend/assets/js/jquery.nice-select.min.js' %}"></script>
+    <script src="{% static 'frontend/assets/js/wow.min.js' %}"></script>
+    <script src="{% static 'frontend/assets/js/main.js' %}"></script>
+
+</body>
+
+</html>

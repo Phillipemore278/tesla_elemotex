@@ -1,0 +1,847 @@
+{% extends './base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- hero slider -->
+<div class="hero-section">
+    <div class="hero-slider owl-carousel owl-theme">
+        <div class="hero-single" style="background: url(/static/frontend/assets/img/slider/slider-1.jpg)">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-12 col-lg-7">
+                        <div class="hero-content">
+                            <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay=".25s">Welcome To
+                                Tesla EleMotex!</h6>
+                            <h1 class="hero-title" data-animation="fadeInRight" data-delay=".50s">
+                                We Offer Your Best Tesla <span>Dream</span> Cars
+                            </h1>
+                            <p data-animation="fadeInLeft" data-delay=".75s">
+                                Find the Tesla vehicle that's right for you. also you can View the network of Tesla Superchargers and Destination Chargers available near you.
+                            </p>
+                            <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
+                                <a href="#" class="theme-btn">Order Now<i
+                                        class="fas fa-arrow-right-long"></i></a>
+                                <a href="#" class="theme-btn theme-btn2">Promo<i
+                                        class="fas fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-single" style="background: url(/static/frontend/assets/img/slider/slider-2.jpg)">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-12 col-lg-7">
+                        <div class="hero-content">
+                            <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay=".25s">Tesla EleMotex!</h6>
+                            <h1 class="hero-title" data-animation="fadeInRight" data-delay=".50s">
+                                We Offer Your Best Tesla <span>Dream</span> Cars
+                            </h1>
+                            <p data-animation="fadeInLeft" data-delay=".75s">
+                                Find the Tesla vehicle that's right for you. also you can View the network of Tesla Superchargers and Destination Chargers available near you.
+                            </p>
+                            <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
+                                <a href="#" class="theme-btn">Order Now<i
+                                        class="fas fa-arrow-right-long"></i></a>
+                                <a href="#" class="theme-btn theme-btn2">Promo<i
+                                        class="fas fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-single" style="background: url(/static/frontend/assets/img/slider/slider-3.jpg)">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-12 col-lg-7">
+                        <div class="hero-content">
+                            <h6 class="hero-sub-title" data-animation="fadeInUp" data-delay=".25s">Welcome To
+                                Motex!</h6>
+                            <h1 class="hero-title" data-animation="fadeInRight" data-delay=".50s">
+                                We Offer Your Best Tesla <span>Dream</span> Cars
+                            </h1>
+                            <p data-animation="fadeInLeft" data-delay=".75s">
+                                Find the Tesla vehicle that's right for you. also you can View the network of Tesla Superchargers and Destination Chargers available near you.
+                            </p>
+                            <div class="hero-btn" data-animation="fadeInUp" data-delay="1s">
+                                <a href="#" class="theme-btn">Order Now<i
+                                        class="fas fa-arrow-right-long"></i></a>
+                                <a href="#" class="theme-btn theme-btn2">Promo<i
+                                        class="fas fa-arrow-right-long"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- hero slider end -->
+
+
+
+<!-- find car form -->
+<div class="find-car">
+    <div class="container">
+        <div class="find-car-form">
+            <h4 class="find-car-title">Let's Find Your Perfect Car</h4>
+            <form action="#">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="form-group">
+                            <label>Car Condition</label>
+                            <select class="select">
+                                <!-- <option value="1">All Status</option> -->
+                                <option value="2">New Car</option>
+                                <option value="3">Used</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-3">
+                        <div class="form-group">
+                            <label>Brand Name</label>
+                            <select class="select">
+                                <option value="1">All Brand</option>
+                                <option value="2">BMW</option>
+                                <option value="3">Ferrari</option>
+                                <option value="4">Marcediz Benz</option>
+                                <option value="5">Hyundai</option>
+                                <option value="6">Nissan</option>
+                            </select>
+                        </div>
+                    </div> -->
+                    <div class="col-lg-3">
+                        <div class="form-group">
+                            <label>Car Model</label>
+                            <select class="select">
+                                <option value="1">Model X</option>
+                                <option value="2">Model 3 </option>
+                                <option value="3">Model Y</option>
+                                <option value="4">Model X</option>
+                                <option value="3">Cybertruck</option>
+                                <option value="3">Inventory</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="form-group">
+                            <label>Choose Year</label>
+                            <select class="select">
+                                <option value="1">All Year</option>
+                                <option value="2">2023</option>
+                                <option value="3">2022</option>
+                                <option value="4">2021</option>
+                                <option value="5">2020</option>
+                                <option value="5">2019</option>
+                                <option value="5">2018</option>
+                                <option value="5">2017</option>
+                                <option value="5">2016</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="form-group">
+                            <label>Choose Milieage</label>
+                            <select class="select">
+                                <option value="1">All Milieage</option>
+                                <option value="2">2000 Miles</option>
+                                <option value="3">3000 Miles</option>
+                                <option value="4">4000 Miles</option>
+                                <option value="5">5000 Miles</option>
+                                <option value="5">10000 Miles</option>
+                                <option value="5">15000 Miles</option>
+                                <option value="5">25000 Miles</option>
+                                <option value="5">30,000+ Miles</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="form-group">
+                            <label>Price Range</label>
+                            <select class="select">
+                                <option value="1">All Price</option>
+                                <option value="2">$5,000 - $15,000</option>
+                                <option value="3">$16,000 - $20,000</option>
+                                <option value="4">$21,000 - $30,000</option>
+                                <option value="5">$31,000 - $45,000</option>
+                                <option value="6">$46,000 - $60,000</option>
+                                <option value="6">$61,000 - Above</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="form-group">
+                            <label>Color</label>
+                            <select class="select">
+                                <option value="1">All Body Type</option>
+                                <option value="2">Red</option>
+                                <option value="5">Blue</option>
+                                <option value="3">White</option>
+                                <option value="4">Silver metalic</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 align-self-end">
+                        <button class="theme-btn" type="submit"><span class="far fa-search"></span> Find Your
+                            Car</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- findcar form end -->
+
+
+<!-- car area -->
+<div class="car-area bg py-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <div class="site-heading text-center">
+                    <span class="site-title-tagline"><i class="flaticon-drive"></i> New Arrivals</span>
+                    <h2 class="site-title">Let's Check Available <span>Cars</span></h2>
+                    <div class="heading-divider"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="car-item wow fadeInUp" data-wow-delay=".25s">
+                    <div class="car-img">
+                        <span class="car-status status-1">Used</span>
+                        <img src="{% static 'frontend/assets/img/car/01.jpg' %}" alt="">
+                        <div class="car-btns">
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <a href="#"><i class="far fa-arrows-repeat"></i></a>
+                        </div>
+                    </div>
+                    <div class="car-content">
+                        <div class="car-top">
+                            <h4><a href="#">Mercedes Benz Car</a></h4>
+                            <div class="car-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>5.0 (58.5k Review)</span>
+                            </div>
+                        </div>
+                        <ul class="car-list">
+                            <li><i class="far fa-steering-wheel"></i>Automatic</li>
+                            <li><i class="far fa-road"></i>10.15km / 1-litre</li>
+                            <li><i class="far fa-car"></i>Model: 2023</li>
+                            <li><i class="far fa-gas-pump"></i>Hybrid</li>
+                        </ul>
+                        <div class="car-footer">
+                            <span class="car-price">$45,620</span>
+                            <a href="#" class="theme-btn"><span class="far fa-eye"></span>Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="car-item wow fadeInUp" data-wow-delay=".50s">
+                    <div class="car-img">
+                        <img src="{% static 'frontend/assets/img/car/02.jpg' %}" alt="">
+                        <div class="car-btns">
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <a href="#"><i class="far fa-arrows-repeat"></i></a>
+                        </div>
+                    </div>
+                    <div class="car-content">
+                        <div class="car-top">
+                            <h4><a href="#">Yellow Ferrari 458</a></h4>
+                            <div class="car-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>5.0 (58.5k Review)</span>
+                            </div>
+                        </div>
+                        <ul class="car-list">
+                            <li><i class="far fa-steering-wheel"></i>Automatic</li>
+                            <li><i class="far fa-road"></i>10.15km / 1-litre</li>
+                            <li><i class="far fa-car"></i>Model: 2023</li>
+                            <li><i class="far fa-gas-pump"></i>Hybrid</li>
+                        </ul>
+                        <div class="car-footer">
+                            <span class="car-price">$90,250</span>
+                            <a href="#" class="theme-btn"><span class="far fa-eye"></span>Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="car-item wow fadeInUp" data-wow-delay=".75s">
+                    <div class="car-img">
+                        <img src="{% static 'frontend/assets/img/car/03.jpg' %}" alt="">
+                        <div class="car-btns">
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <a href="#"><i class="far fa-arrows-repeat"></i></a>
+                        </div>
+                    </div>
+                    <div class="car-content">
+                        <div class="car-top">
+                            <h4><a href="#">Black Audi Q7</a></h4>
+                            <div class="car-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>5.0 (58.5k Review)</span>
+                            </div>
+                        </div>
+                        <ul class="car-list">
+                            <li><i class="far fa-steering-wheel"></i>Automatic</li>
+                            <li><i class="far fa-road"></i>10.15km / 1-litre</li>
+                            <li><i class="far fa-car"></i>Model: 2023</li>
+                            <li><i class="far fa-gas-pump"></i>Hybrid</li>
+                        </ul>
+                        <div class="car-footer">
+                            <span class="car-price">$44,350</span>
+                            <a href="#" class="theme-btn"><span class="far fa-eye"></span>Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="car-item wow fadeInUp" data-wow-delay="1s">
+                    <div class="car-img">
+                        <span class="car-status status-2">New</span>
+                        <img src="{% static 'frontend/assets/img/car/04.jpg' %}" alt="">
+                        <div class="car-btns">
+                            <a href="#"><i class="far fa-heart"></i></a>
+                            <a href="#"><i class="far fa-arrows-repeat"></i></a>
+                        </div>
+                    </div>
+                    <div class="car-content">
+                        <div class="car-top">
+                            <h4><a href="#">BMW Sports Car</a></h4>
+                            <div class="car-rate">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <span>5.0 (58.5k Review)</span>
+                            </div>
+                        </div>
+                        <ul class="car-list">
+                            <li><i class="far fa-steering-wheel"></i>Automatic</li>
+                            <li><i class="far fa-road"></i>10.15km / 1-litre</li>
+                            <li><i class="far fa-car"></i>Model: 2023</li>
+                            <li><i class="far fa-gas-pump"></i>Hybrid</li>
+                        </ul>
+                        <div class="car-footer">
+                            <span class="car-price">$78,760</span>
+                            <a href="#" class="theme-btn"><span class="far fa-eye"></span>Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="text-center mt-4">
+            <a href="#" class="theme-btn">Load More <i class="far fa-arrow-rotate-right"></i> </a>
+        </div>
+    </div>
+</div>
+<!-- car area end -->
+
+
+
+<!-- cta-area -->
+<div class="cta-area pt-20">
+    <div class="container">
+        <div class="cta-wrapper" style="background-image: url(assets/img/cta/01.jpg);">
+            <div class="row align-items-center">
+                <div class="col-lg-7 text-center text-lg-start">
+                    <div class="cta-text cta-divider">
+                        <h1>PROMO!! - Get Your Dream Tesla Car For Free</h1>
+                        <p>Due to slight deep in tesla shares and sales, we are running a monthly promo where up to 10 individuals will get a free tesla car of their choice in one month. Please Note that terms and conditions apply.</p>
+                    </div>
+                </div>
+                <div class="col-lg-5 text-center text-lg-end">
+                    <div class="mb-20">
+                        <!-- <a href="#" class="cta-number"><i class="far fa-headset"></i>+2 123 654 7898</a> -->
+                        <a href="#" class="" style="color: #fff; font-size: 16px;"><i class="far fa-headset me-4"></i>contact@tesla_elemotex.com</a>
+                    </div>
+                    <div class="cta-btn">
+                        <a href="#" class="theme-btn">Get Your Free Car Now<i class="fas fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- cta-area end -->
+
+
+<!-- about area -->
+<div class="about-area py-120">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="about-left wow fadeInLeft" data-wow-delay=".25s">
+                    <div class="about-img">
+                        <img src="{% static 'frontend/assets/img/tesla/tesla-04.png' %}" alt="">
+                    </div>
+                    <div class="about-experience">
+                        <div class="about-experience-icon">
+                            <i class="flaticon-car"></i>
+                        </div>
+                        <b>More than 15 Years Of <br> Quality Service</b>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about-right wow fadeInRight" data-wow-delay=".25s">
+                    <div class="site-heading mb-3">
+                        <span class="site-title-tagline justify-content-start">
+                            <i class="flaticon-drive"></i> About Us
+                        </span>
+                        <h2 class="site-title">
+                            World Largest <span>Tesla Car </span> Dealership.
+                        </h2>
+                    </div>
+                    <p class="about-text">
+                        Experience our latest generation Performance drive unit—the most powerful ever fitted to Model 3, enabling more than 500 horsepower and 0 to 60 mph in as little as 2.9 seconds1.
+                    </p>
+                    <div class="about-list-wrapper">
+                        <ul class="about-list list-unstyled">
+                            <li>
+                                An all-new adaptive damping system keeps Model 3 Performance planted to the road
+                            </li>
+                            <li>
+                                Our latest Track Mode calibrates adaptive suspension
+                            </li>
+                            <li>
+                                The front and rear fascias, rear diffuser and carbon fiber spoiler work together to help reduce drag and improve lift balance at high speeds.
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="about.html" class="theme-btn mt-4">Discover More<i
+                            class="fas fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- about area end -->
+
+<!-- counter area -->
+<div class="counter-area pt-30 pb-30">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="counter-box">
+                    <div class="icon">
+                        <i class="flaticon-car-rental"></i>
+                    </div>
+                    <div>
+                        <span class="counter" data-count="+" data-to="500" data-speed="3000">1750</span>
+                        <h6 class="title">+ Available Cars </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="counter-box">
+                    <div class="icon">
+                        <i class="flaticon-car-key"></i>
+                    </div>
+                    <div>
+                        <span class="counter" data-count="+" data-to="900" data-speed="3000">27900</span>
+                        <h6 class="title">+ Happy Clients</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="counter-box">
+                    <div class="icon">
+                        <i class="flaticon-screwdriver"></i>
+                    </div>
+                    <div>
+                        <span class="counter" data-count="+" data-to="1500" data-speed="3000">1500</span>
+                        <h6 class="title">+ Team Workers</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="counter-box">
+                    <div class="icon">
+                        <i class="flaticon-review"></i>
+                    </div>
+                    <div>
+                        <span class="counter" data-count="+" data-to="30" data-speed="3000">20</span>
+                        <h6 class="title">+ Years Of Experience</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- counter area end -->
+
+<!-- location area -->
+<div class="location-area py-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <div class="site-heading text-center">
+                    <span class="site-title-tagline"><i class="flaticon-drive"></i> Nearby Listings</span>
+                    <h2 class="site-title">Shipping Based On <span>City</span></h2>
+                    <div class="heading-divider"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-12 col-lg-6">
+                <a href="#" class="location-item wow fadeInUp" data-wow-delay=".25s">
+                    <div class="location-img">
+                        <img src="{% static 'frontend/assets/img/location/01.jpg' %}" alt="">
+                    </div>
+                    <div class="location-info">
+                        <h4>New York</h4>
+                        <span><i class="far fa-location-dot"></i> 130 Cars</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <a href="#" class="location-item wow fadeInUp" data-wow-delay=".50s">
+                    <div class="location-img">
+                        <img src="{% static 'frontend/assets/img/location/02.jpg' %}" alt="">
+                    </div>
+                    <div class="location-info">
+                        <h4>San Francisco</h4>
+                        <span><i class="far fa-location-dot"></i> 125 Cars</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <a href="#" class="location-item wow fadeInUp" data-wow-delay=".75s">
+                    <div class="location-img">
+                        <img src="{% static 'frontend/assets/img/location/03.jpg' %}" alt="">
+                    </div>
+                    <div class="location-info">
+                        <h4>Florida</h4>
+                        <span><i class="far fa-location-dot"></i> 115 Cars</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <a href="#" class="location-item wow fadeInUp" data-wow-delay=".25s">
+                    <div class="location-img">
+                        <img src="{% static 'frontend/assets/img/location/04.jpg' %}" alt="">
+                    </div>
+                    <div class="location-info">
+                        <h4>Miami</h4>
+                        <span><i class="far fa-location-dot"></i> 140 Cars</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <a href="#" class="location-item wow fadeInUp" data-wow-delay=".50s">
+                    <div class="location-img">
+                        <img src="{% static 'frontend/assets/img/location/05.jpg' %}" alt="">
+                    </div>
+                    <div class="location-info">
+                        <h4>London</h4>
+                        <span><i class="far fa-location-dot"></i> 150 Cars</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <a href="#" class="location-item wow fadeInUp" data-wow-delay=".75s">
+                    <div class="location-img">
+                        <img src="{% static 'frontend/assets/img/location/06.jpg' %}" alt="">
+                    </div>
+                    <div class="location-info">
+                        <h4>Los Angeles</h4>
+                        <span><i class="far fa-location-dot"></i> 145 Cars</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- location area end -->
+
+
+<!-- choose area -->
+<div class="choose-area py-120">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="choose-content">
+                    <div class="site-heading wow fadeInDown" data-wow-delay=".25s">
+                        <span class="site-title-tagline text-white justify-content-start">
+                            <i class="flaticon-drive"></i> Why Choose Us
+                        </span>
+                        <h2 class="site-title text-white mb-10">We are dedicated <span>to provide</span> quality service</h2>
+                        <p class="text-white">
+                            There are many variations of passages available but the majority have suffered alteration in some form going to use a passage by injected humour randomised words which don't look even slightly believable. 
+                        </p>
+                    </div>
+                    <div class="choose-img wow fadeInUp" data-wow-delay=".25s">
+                        <!-- <img src="{% static 'frontend/assets/img/choose/01.png' %}" alt=""> -->
+                        <img src="{% static 'frontend/assets/img/tesla/tesla-06.png' %}" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="choose-content-wrapper wow fadeInRight" data-wow-delay=".25s">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6 mt-lg-5">
+                            <div class="choose-item">
+                                <span class="choose-count">01</span>
+                                <div class="choose-item-icon">
+                                    <i class="flaticon-car"></i>
+                                </div>
+                                <div class="choose-item-info">
+                                    <h3>Best Quality Cars</h3>
+                                    <p>There are many variations of the passages available but the
+                                        majo have suffered fact that reader will be dist alteration.</p>
+                                </div>
+                            </div>
+                            <div class="choose-item mb-lg-0">
+                                <span class="choose-count">03</span>
+                                <div class="choose-item-icon">
+                                    <i class="flaticon-drive-thru"></i>
+                                </div>
+                                <div class="choose-item-info">
+                                    <h3>Popular Brands</h3>
+                                    <p>There are many variations of the passages available but the
+                                        majo have suffered fact that reader will be dist alteration.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <div class="choose-item">
+                                <span class="choose-count">02</span>
+                                <div class="choose-item-icon">
+                                    <i class="flaticon-chauffeur"></i>
+                                </div>
+                                <div class="choose-item-info">
+                                    <h3>Certified Mechanics</h3>
+                                    <p>There are many variations of the passages available but the
+                                        majo have suffered fact that reader will be dist alteration.</p>
+                                </div>
+                            </div>
+                            <div class="choose-item mb-lg-0">
+                                <span class="choose-count">04</span>
+                                <div class="choose-item-icon">
+                                    <i class="flaticon-online-payment"></i>
+                                </div>
+                                <div class="choose-item-info">
+                                    <h3>Reasonable Price</h3>
+                                    <p>There are many variations of the passages available but the
+                                        majo have suffered fact that reader will be dist alteration.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- choose area end -->
+
+
+<!-- testimonial area -->
+<div class="testimonial-area bg py-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <div class="site-heading text-center">
+                    <span class="site-title-tagline"><i class="flaticon-drive"></i> Testimonials</span>
+                    <h2 class="site-title">What Our Client <span>Say's</span></h2>
+                    <div class="heading-divider"></div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-slider owl-carousel owl-theme">
+            <div class="testimonial-single">
+                <div class="testimonial-content">
+                    <div class="testimonial-author-img">
+                        <img src="{% static 'frontend/assets/img/testimonial/01.jpg' %}" alt="">
+                    </div>
+                    <div class="testimonial-author-info">
+                        <h4>Sylvia H Green</h4>
+                        <p>Customer</p>
+                    </div>
+                </div>
+                <div class="testimonial-quote">
+                    <span class="testimonial-quote-icon"><i class="flaticon-quote"></i></span>
+                    <p>
+                        There are many variations of passages available but the majority have
+                        suffered to the alteration in some injected.
+                    </p>
+                </div>
+                <div class="testimonial-rate">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonial-single">
+                <div class="testimonial-content">
+                    <div class="testimonial-author-img">
+                        <img src="{% static 'frontend/assets/img/testimonial/02.jpg' %}" alt="">
+                    </div>
+                    <div class="testimonial-author-info">
+                        <h4>Gordo Novak</h4>
+                        <p>Customer</p>
+                    </div>
+                </div>
+                <div class="testimonial-quote">
+                    <span class="testimonial-quote-icon"><i class="flaticon-quote"></i></span>
+                    <p>
+                        There are many variations of passages available but the majority have
+                        suffered to the alteration in some injected.
+                    </p>
+                </div>
+                <div class="testimonial-rate">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonial-single">
+                <div class="testimonial-content">
+                    <div class="testimonial-author-img">
+                        <img src="{% static 'frontend/assets/img/testimonial/03.jpg' %}" alt="">
+                    </div>
+                    <div class="testimonial-author-info">
+                        <h4>Reid E Butt</h4>
+                        <p>Customer</p>
+                    </div>
+                </div>
+                <div class="testimonial-quote">
+                    <span class="testimonial-quote-icon"><i class="flaticon-quote"></i></span>
+                    <p>
+                        There are many variations of passages available but the majority have
+                        suffered to the alteration in some injected.
+                    </p>
+                </div>
+                <div class="testimonial-rate">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonial-single">
+                <div class="testimonial-content">
+                    <div class="testimonial-author-img">
+                        <img src="{% static 'frontend/assets/img/testimonial/04.jpg' %}" alt="">
+                    </div>
+                    <div class="testimonial-author-info">
+                        <h4>Parker Jimenez</h4>
+                        <p>Customer</p>
+                    </div>
+                </div>
+                <div class="testimonial-quote">
+                    <span class="testimonial-quote-icon"><i class="flaticon-quote"></i></span>
+                    <p>
+                        There are many variations of passages available but the majority have
+                        suffered to the alteration in some injected.
+                    </p>
+                </div>
+                <div class="testimonial-rate">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonial-single">
+                <div class="testimonial-content">
+                    <div class="testimonial-author-img">
+                        <img src="{% static 'frontend/assets/img/testimonial/05.jpg' %}" alt="">
+                    </div>
+                    <div class="testimonial-author-info">
+                        <h4>Heruli Nez</h4>
+                        <p>Customer</p>
+                    </div>
+                </div>
+                <div class="testimonial-quote">
+                    <span class="testimonial-quote-icon"><i class="flaticon-quote"></i></span>
+                    <p>
+                        There are many variations of passages available but the majority have
+                        suffered to the alteration in some injected.
+                    </p>
+                </div>
+                <div class="testimonial-rate">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- testimonial area end -->
+
+
+<!-- download area -->
+<div class="download-area">
+    <div class="container">
+        <div class="download-wrapper">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="download-content">
+                        <div class="site-heading mb-4">
+                            <span class="site-title-tagline justify-content-start">
+                                <i class="flaticon-drive"></i> Get Our App
+                            </span>
+                            <h2 class="site-title mb-10">Download <span>Our Tesla EleMotex</span> App For Free</h2>
+                            <p>
+                                Our apps will soon be rady for your android and iphones.
+                            </p>
+                        </div>
+                        <div class="download-btn">
+                            <a href="#">
+                                <i class="fab fa-google-play"></i>
+                                <div class="download-btn-content">
+                                    <span>Get It On</span>
+                                    <strong>Google Play</strong>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-app-store"></i>
+                                <div class="download-btn-content">
+                                    <span>Get It On</span>
+                                    <strong>App Store</strong>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="download-img">
+                <img src="{% static 'frontend/assets/img/download/01.png' %}" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- download area end -->
+
+
+{% endblock %}

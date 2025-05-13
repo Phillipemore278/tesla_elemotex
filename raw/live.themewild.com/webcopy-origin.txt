@@ -1,0 +1,860 @@
+Uri: https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuBWYMZg.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\s\inter\v18\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuBWYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyYMZg.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\s\inter\v18\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\s\inter\v18\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\s\inter\v18\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\s\inter\v18\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\s\inter\v18\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuOKfMZg.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\s\inter\v18\UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuOKfMZg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabWmT.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\s\roboto\v47\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabWmT.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bWmT.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\s\roboto\v47\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bWmT.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbGmT.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\s\roboto\v47\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbGmT.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbWmT.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\s\roboto\v47\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbWmT.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjammT.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\s\roboto\v47\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjammT.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtammT.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\s\roboto\v47\KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtammT.ttf
+Content Type: font/ttf
+
+Uri: https://live.themewild.com/motex/
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\index.htm
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/404.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\404.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/about.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\about.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/add-listing.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\add-listing.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/assets/css/all-fontawesome.min.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\css\all-fontawesome.min.css
+Content Type: text/css
+
+Uri: https://live.themewild.com/motex/assets/css/animate.min.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\css\animate.min.css
+Content Type: text/css
+
+Uri: https://live.themewild.com/motex/assets/css/bootstrap.min.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://live.themewild.com/motex/assets/css/flaticon.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\css\flaticon.css
+Content Type: text/css
+
+Uri: https://live.themewild.com/motex/assets/css/flex-slider.min.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\css\flex-slider.min.css
+Content Type: text/css
+
+Uri: https://live.themewild.com/motex/assets/css/jquery-ui.min.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\css\jquery-ui.min.css
+Content Type: text/css
+
+Uri: https://live.themewild.com/motex/assets/css/magnific-popup.min.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\css\magnific-popup.min.css
+Content Type: text/css
+
+Uri: https://live.themewild.com/motex/assets/css/nice-select.min.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\css\nice-select.min.css
+Content Type: text/css
+
+Uri: https://live.themewild.com/motex/assets/css/owl.carousel.min.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\css\owl.carousel.min.css
+Content Type: text/css
+
+Uri: https://live.themewild.com/motex/assets/css/style.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\css\style.css
+Content Type: text/css
+
+Uri: https://live.themewild.com/motex/assets/fonts/fa-brands-400.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\fonts\fa-brands-400.ttf
+Content Type: font/ttf
+
+Uri: https://live.themewild.com/motex/assets/fonts/fa-brands-400.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\fonts\fa-brands-400.woff2
+Content Type: font/woff2
+
+Uri: https://live.themewild.com/motex/assets/fonts/fa-duotone-900.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\fonts\fa-duotone-900.ttf
+Content Type: font/ttf
+
+Uri: https://live.themewild.com/motex/assets/fonts/fa-duotone-900.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\fonts\fa-duotone-900.woff2
+Content Type: font/woff2
+
+Uri: https://live.themewild.com/motex/assets/fonts/fa-light-300.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\fonts\fa-light-300.ttf
+Content Type: font/ttf
+
+Uri: https://live.themewild.com/motex/assets/fonts/fa-light-300.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\fonts\fa-light-300.woff2
+Content Type: font/woff2
+
+Uri: https://live.themewild.com/motex/assets/fonts/fa-regular-400.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\fonts\fa-regular-400.ttf
+Content Type: font/ttf
+
+Uri: https://live.themewild.com/motex/assets/fonts/fa-regular-400.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\fonts\fa-regular-400.woff2
+Content Type: font/woff2
+
+Uri: https://live.themewild.com/motex/assets/fonts/fa-solid-900.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\fonts\fa-solid-900.ttf
+Content Type: font/ttf
+
+Uri: https://live.themewild.com/motex/assets/fonts/fa-solid-900.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\fonts\fa-solid-900.woff2
+Content Type: font/woff2
+
+Uri: https://live.themewild.com/motex/assets/fonts/fa-thin-100.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\fonts\fa-thin-100.ttf
+Content Type: font/ttf
+
+Uri: https://live.themewild.com/motex/assets/fonts/fa-thin-100.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\fonts\fa-thin-100.woff2
+Content Type: font/woff2
+
+Uri: https://live.themewild.com/motex/assets/fonts/fa-v4compatibility.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\fonts\fa-v4compatibility.ttf
+Content Type: font/ttf
+
+Uri: https://live.themewild.com/motex/assets/fonts/fa-v4compatibility.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\fonts\fa-v4compatibility.woff2
+Content Type: font/woff2
+
+Uri: https://live.themewild.com/motex/assets/fonts/flaticon.eot
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\fonts\flaticon.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://live.themewild.com/motex/assets/fonts/flaticon.svg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\fonts\flaticon.svg
+Content Type: image/svg+xml
+
+Uri: https://live.themewild.com/motex/assets/fonts/flaticon.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\fonts\flaticon.ttf
+Content Type: font/ttf
+
+Uri: https://live.themewild.com/motex/assets/fonts/flaticon.woff
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\fonts\flaticon.woff
+Content Type: font/woff
+
+Uri: https://live.themewild.com/motex/assets/fonts/flaticon.woff2
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\fonts\flaticon.woff2
+Content Type: font/woff2
+
+Uri: https://live.themewild.com/motex/assets/img/about/01.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\about\01.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/account/01.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\account\01.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/account/02.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\account\02.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/account/03.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\account\03.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/account/04.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\account\04.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/account/05.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\account\05.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/account/user.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\account\user.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/blog/01.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\blog\01.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/blog/02.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\blog\02.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/blog/03.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\blog\03.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/blog/author.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\blog\author.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/blog/bs-1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\blog\bs-1.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/blog/bs-2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\blog\bs-2.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/blog/bs-3.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\blog\bs-3.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/blog/com-1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\blog\com-1.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/blog/com-2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\blog\com-2.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/blog/com-3.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\blog\com-3.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/blog/single.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\blog\single.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/brand/01.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\brand\01.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/brand/02.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\brand\02.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/brand/03.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\brand\03.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/brand/04.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\brand\04.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/brand/05.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\brand\05.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/brand/06.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\brand\06.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/breadcrumb/01.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\breadcrumb\01.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/calculator/01.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\calculator\01.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/car/01.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\car\01.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/car/02.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\car\02.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/car/03.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\car\03.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/car/04.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\car\04.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/car/05.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\car\05.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/car/06.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\car\06.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/car/07.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\car\07.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/car/08.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\car\08.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/car/09.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\car\09.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/car/author.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\car\author.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/car/single-1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\car\single-1.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/car/single-2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\car\single-2.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/car/single-3.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\car\single-3.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/car/single-4.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\car\single-4.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/category/01.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\category\01.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/category/02.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\category\02.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/category/03.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\category\03.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/category/04.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\category\04.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/category/05.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\category\05.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/category/06.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\category\06.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/category/07.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\category\07.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/category/08.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\category\08.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/category/09.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\category\09.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/category/10.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\category\10.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/category/11.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\category\11.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/category/12.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\category\12.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/choose/01.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\choose\01.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/coming-soon/01.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\coming-soon\01.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/contact/01.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\contact\01.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/cta/01.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\cta\01.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/dealer/01.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\dealer\01.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/dealer/02.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\dealer\02.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/dealer/03.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\dealer\03.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/dealer/04.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\dealer\04.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/dealer/05.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\dealer\05.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/dealer/06.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\dealer\06.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/dealer/07.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\dealer\07.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/dealer/08.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\dealer\08.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/download/01.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\download\01.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/error/404.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\error\404.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/faq/01.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\faq\01.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/location/01.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\location\01.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/location/02.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\location\02.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/location/03.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\location\03.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/location/04.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\location\04.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/location/05.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\location\05.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/location/06.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\location\06.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/logo/favicon.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\logo\favicon.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/logo/logo-light.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\logo\logo-light.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/logo/logo.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\logo\logo.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/service/01.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\service\01.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/service/02.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\service\02.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/service/03.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\service\03.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/service/04.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\service\04.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/service/05.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\service\05.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/service/06.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\service\06.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/service/single.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\service\single.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/shape/01.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\shape\01.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/shape/02.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\shape\02.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/shop/01.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\shop\01.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/shop/02.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\shop\02.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/shop/03.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\shop\03.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/shop/04.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\shop\04.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/shop/05.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\shop\05.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/shop/06.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\shop\06.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/shop/07.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\shop\07.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/shop/08.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\shop\08.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/shop/09.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\shop\09.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/shop/banner.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\shop\banner.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/slider/hero-1.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\slider\hero-1.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/slider/hero-2.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\slider\hero-2.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/slider/hero-4.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\slider\hero-4.png
+Content Type: image/png
+
+Uri: https://live.themewild.com/motex/assets/img/slider/slider-1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\slider\slider-1.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/slider/slider-2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\slider\slider-2.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/slider/slider-3.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\slider\slider-3.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/store/banner.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\store\banner.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/store/logo.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\store\logo.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/team/01.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\team\01.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/team/02.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\team\02.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/team/03.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\team\03.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/team/04.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\team\04.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/testimonial/01.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\testimonial\01.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/testimonial/02.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\testimonial\02.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/testimonial/03.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\testimonial\03.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/testimonial/04.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\testimonial\04.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/testimonial/05.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\testimonial\05.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/img/video/01.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\img\video\01.jpg
+Content Type: image/jpeg
+
+Uri: https://live.themewild.com/motex/assets/js/bootstrap.bundle.min.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\js\bootstrap.bundle.min.js
+Content Type: text/javascript
+
+Uri: https://live.themewild.com/motex/assets/js/contact-form.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\js\contact-form.js
+Content Type: text/javascript
+
+Uri: https://live.themewild.com/motex/assets/js/countdown.min.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\js\countdown.min.js
+Content Type: text/javascript
+
+Uri: https://live.themewild.com/motex/assets/js/counter-up.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\js\counter-up.js
+Content Type: text/javascript
+
+Uri: https://live.themewild.com/motex/assets/js/flex-slider.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\js\flex-slider.js
+Content Type: text/javascript
+
+Uri: https://live.themewild.com/motex/assets/js/imagesloaded.pkgd.min.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\js\imagesloaded.pkgd.min.js
+Content Type: text/javascript
+
+Uri: https://live.themewild.com/motex/assets/js/isotope.pkgd.min.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\js\isotope.pkgd.min.js
+Content Type: text/javascript
+
+Uri: https://live.themewild.com/motex/assets/js/jquery-3.6.0.min.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\js\jquery-3.6.0.min.js
+Content Type: text/javascript
+
+Uri: https://live.themewild.com/motex/assets/js/jquery-ui.min.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\js\jquery-ui.min.js
+Content Type: text/javascript
+
+Uri: https://live.themewild.com/motex/assets/js/jquery.appear.min.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\js\jquery.appear.min.js
+Content Type: text/javascript
+
+Uri: https://live.themewild.com/motex/assets/js/jquery.easing.min.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\js\jquery.easing.min.js
+Content Type: text/javascript
+
+Uri: https://live.themewild.com/motex/assets/js/jquery.magnific-popup.min.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\js\jquery.magnific-popup.min.js
+Content Type: text/javascript
+
+Uri: https://live.themewild.com/motex/assets/js/jquery.nice-select.min.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\js\jquery.nice-select.min.js
+Content Type: text/javascript
+
+Uri: https://live.themewild.com/motex/assets/js/main.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\js\main.js
+Content Type: text/javascript
+
+Uri: https://live.themewild.com/motex/assets/js/modernizr.min.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\js\modernizr.min.js
+Content Type: text/javascript
+
+Uri: https://live.themewild.com/motex/assets/js/owl.carousel.min.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\js\owl.carousel.min.js
+Content Type: text/javascript
+
+Uri: https://live.themewild.com/motex/assets/js/wow.min.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\assets\js\wow.min.js
+Content Type: text/javascript
+
+Uri: https://live.themewild.com/motex/blog-single.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\blog-single.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/blog.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\blog.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/calculator.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\calculator.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/coming-soon.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\coming-soon.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/compare.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\compare.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/contact.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\contact.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/dashboard.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\dashboard.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/dealer-single.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\dealer-single.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/dealer.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\dealer.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/faq.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\faq.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/forgot-password.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\forgot-password.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/index-2.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\index-2.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/index-3.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\index-3.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/index.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\index.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/inventory-grid.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\inventory-grid.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/inventory-list.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\inventory-list.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/inventory-single.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\inventory-single.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/listing-grid.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\listing-grid.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/listing-list.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\listing-list.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/listing-single.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\listing-single.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/login.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\login.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/pricing.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\pricing.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/privacy.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\privacy.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/profile-favorite.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\profile-favorite.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/profile-listing.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\profile-listing.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/profile-message.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\profile-message.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/profile-setting.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\profile-setting.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/profile.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\profile.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/register.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\register.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/service-single.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\service-single.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/service.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\service.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/shop-cart.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\shop-cart.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/shop-checkout.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\shop-checkout.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/shop-single.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\shop-single.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/shop.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\shop.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/team.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\team.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/terms.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\terms.html
+Content Type: text/html
+
+Uri: https://live.themewild.com/motex/testimonial.html
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\carsale\live.themewild.com\motex\testimonial.html
+Content Type: text/html
+
