@@ -1,0 +1,434 @@
+{% extends './base.html' %}
+{% load static %}
+{% load humanize %}
+
+{% block content %}
+
+<!-- breadcrumb -->
+<div class="site-breadcrumb" style="background: url(/static/frontend/assets/img/breadcrumb/01.jpg)">
+    <div class="container">
+        <h2 class="breadcrumb-title">Detail</h2>
+        <ul class="breadcrumb-menu">
+            <li><a href="{% url 'frontend:home' %}">Home</a></li>
+            <li class="active">{{car.title}} detail</li>
+        </ul>
+    </div>
+</div>
+<!-- breadcrumb end -->
+
+
+<!-- car single -->
+<div class="car-item-single bg py-120">
+    <div class="container">
+        <div class="car-single-wrapper">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="car-single-details">
+                        <div class="car-single-widget">
+                            <div class="car-single-top">
+                                {% if car.is_new %}
+                                <span class="car-status status-1">Brand New</span>
+                                {% else %}
+                                <span class="car-status status-1">Used</span>
+                                {% endif %}
+                                <h3 class="car-single-title">{{car.title}}</h3>
+                                <ul class="car-single-meta">
+                                    <li><i class="far fa-clock"></i> Listed On: {{car.listed_on}}
+                                    <li><i class="far fa-eye"></i> Model: {{car.category.name}}</li>
+                                </ul>
+                            </div>
+                            <div class="car-single-slider">
+                                <div class="item-gallery">
+                                    <div class="flexslider-thumbnails">
+                                        <ul class="slides">
+                                            <li data-thumb="assets/img/car/single-1.jpg">
+                                                <img src="assets/img/car/single-1.jpg" alt="#">
+                                            </li>
+                                            <li data-thumb="assets/img/car/single-2.jpg">
+                                                <img src="assets/img/car/single-2.jpg" alt="#">
+                                            </li>
+                                            <li data-thumb="assets/img/car/single-3.jpg">
+                                                <img src="assets/img/car/single-3.jpg" alt="#">
+                                            </li>
+                                            <li data-thumb="assets/img/car/single-4.jpg">
+                                                <img src="assets/img/car/single-4.jpg" alt="#">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="car-single-widget">
+                            <h4 class="mb-4">Key Information</h4>
+                            <div class="car-key-info">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4 col-6">
+                                        <div class="car-key-item">
+                                            <div class="car-key-icon">
+                                                <i class="flaticon-drive"></i>
+                                            </div>
+                                            <div class="car-key-content">
+                                                <span>Model</span>
+                                                <h6>{{car.category.name}}</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-6">
+                                        <div class="car-key-item">
+                                            <div class="car-key-icon">
+                                                <i class="flaticon-drive"></i>
+                                            </div>
+                                            <div class="car-key-content">
+                                                <span>Condition</span>
+                                                {% if car.is_new %}
+                                                    <h6>New</h6>
+                                                {% else %}
+                                                    <h6>Used</h6>
+                                                {% endif %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-6">
+                                        <div class="car-key-item">
+                                            <div class="car-key-icon">
+                                                <i class="flaticon-speedometer"></i>
+                                            </div>
+                                            <div class="car-key-content">
+                                                <span>Mileage</span>
+                                                <h6>{{car.miles}}</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-6">
+                                        <div class="car-key-item">
+                                            <div class="car-key-icon">
+                                                <i class="flaticon-settings"></i>
+                                            </div>
+                                            <div class="car-key-content">
+                                                <span>Top Speed</span>
+                                                <h6>{{car.top_speed}}</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-6">
+                                        <div class="car-key-item">
+                                            <div class="car-key-icon">
+                                                <i class="flaticon-drive"></i>
+                                            </div>
+                                            <div class="car-key-content">
+                                                <span>Year</span>
+                                                <h6>{{car.year}}</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-6">
+                                        <div class="car-key-item">
+                                            <div class="car-key-icon">
+                                                <i class="flaticon-gas-station"></i>
+                                            </div>
+                                            <div class="car-key-content">
+                                                <span>Fuel Type</span>
+                                                <h6>Diesel</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-6">
+                                        <div class="car-key-item">
+                                            <div class="car-key-icon">
+                                                <i class="flaticon-drive"></i>
+                                            </div>
+                                            <div class="car-key-content">
+                                                <span>Color</span>
+                                                <h6>{{car.color}}</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-6">
+                                        <div class="car-key-item">
+                                            <div class="car-key-icon">
+                                                <i class="flaticon-drive"></i>
+                                            </div>
+                                            <div class="car-key-content">
+                                                <span>Doors</span>
+                                                <h6>4 Doors</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="col-lg-3 col-md-4 col-6">
+                                        <div class="car-key-item">
+                                            <div class="car-key-icon">
+                                                <i class="flaticon-drive"></i>
+                                            </div>
+                                            <div class="car-key-content">
+                                                <span>Cylinders</span>
+                                                <h6>05</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-6">
+                                        <div class="car-key-item">
+                                            <div class="car-key-icon">
+                                                <i class="flaticon-drive"></i>
+                                            </div>
+                                            <div class="car-key-content">
+                                                <span>Engine Size</span>
+                                                <h6>2,000 (cc)</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-6">
+                                        <div class="car-key-item">
+                                            <div class="car-key-icon">
+                                                <i class="flaticon-drive"></i>
+                                            </div>
+                                            <div class="car-key-content">
+                                                <span>VIN</span>
+                                                <h6>532GAFDSUY</h6>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="car-single-widget">
+                            <div class="car-single-overview">
+                                <h4 class="mb-3">Description</h4>
+                                <div class="mb-4">
+                                    <p>{{car.description}}.</p>
+                                </div>
+                                <!-- <h4 class="mb-3">Car Features</h4>
+                                <div class="row mb-3">
+                                    <div class="col-lg-4">
+                                        <ul class="car-single-list">
+                                            <li><i class="far fa-check-circle"></i> Multi-zone A/C</li>
+                                            <li><i class="far fa-check-circle"></i> Heated front seats</li>
+                                            <li><i class="far fa-check-circle"></i> Navigation system</li>
+                                            <li><i class="far fa-check-circle"></i> Leather seats</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <ul class="car-single-list">
+                                            <li><i class="far fa-check-circle"></i> Premium sound system</li>
+                                            <li><i class="far fa-check-circle"></i> Bluetooth</li>
+                                            <li><i class="far fa-check-circle"></i> Andriod Auto</li>
+                                            <li><i class="far fa-check-circle"></i> Intermittent wipers</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <ul class="car-single-list">
+                                            <li><i class="far fa-check-circle"></i> Memory seat</li>
+                                            <li><i class="far fa-check-circle"></i> Adaptive Cruise Control</li>
+                                            <li><i class="far fa-check-circle"></i> Cooled Seats</li>
+                                            <li><i class="far fa-check-circle"></i> Keyles Start</li>
+                                        </ul>
+                                    </div>
+                                </div> -->
+                                {% if not car.is_new %}
+                                <h4 class="mb-4">Vehicle History</h4>
+                                <div class="mb-4">
+                                    <ul class="car-single-list">
+                                        <li><i class="far fa-check-circle"></i> It is a long established fact that a reader will be distracted </li>
+                                        <li><i class="far fa-check-circle"></i> Sed perspic unde omnis iste natus sit voluptatem accusantium</li>
+                                        <li><i class="far fa-check-circle"></i> Explain to you how all this mistaken idea of denouncing pleasure</li>
+                                        <li><i class="far fa-check-circle"></i> Praising pain was born will give account of the system</li>
+                                    </ul>
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="car-single-widget">
+                        <h4 class="car-single-price">${{car.price|intcomma}}</h4>
+                        <ul class="car-single-meta">
+                            <li><i class="fa-regular fa-gauge-high"></i> {{car.miles}}</li>
+                            <li><i class="far fa-location-dot"></i> {{car.car_range}}</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="car-single-widget">
+                        <div class="car-single-author">
+                            <img src="assets/img/car/author.jpg" alt="">
+                            <div class="car-single-author-content">
+                                <h5>Marid Anderson</h5>
+                                <span>Customer Advisor</span>
+                                <div class="car-single-author-social">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="car-single-widget">
+                        <h5 class="mb-3">Contact Details</h5>
+                        <div class="car-single-form">
+                            <form action="#">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Enter Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Enter Email">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="3" placeholder="Write Message"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="theme-btn">Send Now<i class="fas fa-arrow-right-long"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="car-single-related mt-5">
+                <h3 class="mb-30">Related Listing</h3>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="car-item">
+                            <div class="car-img">
+                                <span class="car-status status-1">Used</span>
+                                <img src="assets/img/car/01.jpg" alt="">
+                                <div class="car-btns">
+                                    <a href="#"><i class="far fa-heart"></i></a>
+                                    <a href="#"><i class="far fa-arrows-repeat"></i></a>
+                                </div>
+                            </div>
+                            <div class="car-content">
+                                <div class="car-top">
+                                    <h4><a href="#">Mercedes Benz Car</a></h4>
+                                    <div class="car-rate">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <span>5.0 (58.5k Review)</span>
+                                    </div>
+                                </div>
+                                <ul class="car-list">
+                                    <li><i class="far fa-steering-wheel"></i>Automatic</li>
+                                    <li><i class="far fa-road"></i>10.15km / 1-litre</li>
+                                    <li><i class="far fa-car"></i>Model: 2023</li>
+                                    <li><i class="far fa-gas-pump"></i>Hybrid</li>
+                                </ul>
+                                <div class="car-footer">
+                                    <span class="car-price">$45,620</span>
+                                    <a href="#" class="theme-btn"><span class="far fa-eye"></span>Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="car-item">
+                            <div class="car-img">
+                                <img src="assets/img/car/02.jpg" alt="">
+                                <div class="car-btns">
+                                    <a href="#"><i class="far fa-heart"></i></a>
+                                    <a href="#"><i class="far fa-arrows-repeat"></i></a>
+                                </div>
+                            </div>
+                            <div class="car-content">
+                                <div class="car-top">
+                                    <h4><a href="#">Yellow Ferrari 458</a></h4>
+                                    <div class="car-rate">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <span>5.0 (58.5k Review)</span>
+                                    </div>
+                                </div>
+                                <ul class="car-list">
+                                    <li><i class="far fa-steering-wheel"></i>Automatic</li>
+                                    <li><i class="far fa-road"></i>10.15km / 1-litre</li>
+                                    <li><i class="far fa-car"></i>Model: 2023</li>
+                                    <li><i class="far fa-gas-pump"></i>Hybrid</li>
+                                </ul>
+                                <div class="car-footer">
+                                    <span class="car-price">$90,250</span>
+                                    <a href="#" class="theme-btn"><span class="far fa-eye"></span>Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="car-item">
+                            <div class="car-img">
+                                <img src="assets/img/car/03.jpg" alt="">
+                                <div class="car-btns">
+                                    <a href="#"><i class="far fa-heart"></i></a>
+                                    <a href="#"><i class="far fa-arrows-repeat"></i></a>
+                                </div>
+                            </div>
+                            <div class="car-content">
+                                <div class="car-top">
+                                    <h4><a href="#">Black Audi Q7</a></h4>
+                                    <div class="car-rate">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <span>5.0 (58.5k Review)</span>
+                                    </div>
+                                </div>
+                                <ul class="car-list">
+                                    <li><i class="far fa-steering-wheel"></i>Automatic</li>
+                                    <li><i class="far fa-road"></i>10.15km / 1-litre</li>
+                                    <li><i class="far fa-car"></i>Model: 2023</li>
+                                    <li><i class="far fa-gas-pump"></i>Hybrid</li>
+                                </ul>
+                                <div class="car-footer">
+                                    <span class="car-price">$44,350</span>
+                                    <a href="#" class="theme-btn"><span class="far fa-eye"></span>Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="car-item">
+                            <div class="car-img">
+                                <span class="car-status status-2">New</span>
+                                <img src="assets/img/car/04.jpg" alt="">
+                                <div class="car-btns">
+                                    <a href="#"><i class="far fa-heart"></i></a>
+                                    <a href="#"><i class="far fa-arrows-repeat"></i></a>
+                                </div>
+                            </div>
+                            <div class="car-content">
+                                <div class="car-top">
+                                    <h4><a href="#">BMW Sports Car</a></h4>
+                                    <div class="car-rate">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <span>5.0 (58.5k Review)</span>
+                                    </div>
+                                </div>
+                                <ul class="car-list">
+                                    <li><i class="far fa-steering-wheel"></i>Automatic</li>
+                                    <li><i class="far fa-road"></i>10.15km / 1-litre</li>
+                                    <li><i class="far fa-car"></i>Model: 2023</li>
+                                    <li><i class="far fa-gas-pump"></i>Hybrid</li>
+                                </ul>
+                                <div class="car-footer">
+                                    <span class="car-price">$78,760</span>
+                                    <a href="#" class="theme-btn"><span class="far fa-eye"></span>Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- car single end -->
+
+{% endblock %}
