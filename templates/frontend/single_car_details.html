@@ -27,9 +27,17 @@
                         <div class="car-single-widget">
                             <div class="car-single-top">
                                 {% if car.is_new %}
-                                <span class="car-status status-1">Brand New</span>
+                                    {% if car.is_on_promo %}
+                                        <span class="car-status status-2">Promo</span>
+                                    {% else %}
+                                        <span class="car-status status-1">Brand New</span>
+                                    {% endif %}
                                 {% else %}
-                                <span class="car-status status-1">Used</span>
+                                    {% if car.is_on_promo %}
+                                        <span class="car-status status-2">Promo</span>
+                                    {% else %}
+                                        <span class="car-status status-1">Used</span>
+                                    {% endif %}
                                 {% endif %}
                                 <h3 class="car-single-title">{{car.title}}</h3>
                                 <ul class="car-single-meta">
