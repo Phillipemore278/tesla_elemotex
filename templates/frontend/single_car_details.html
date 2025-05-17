@@ -41,18 +41,20 @@
                                 <div class="item-gallery">
                                     <div class="flexslider-thumbnails">
                                         <ul class="slides">
-                                            <li data-thumb="assets/img/car/single-1.jpg">
-                                                <img src="assets/img/car/single-1.jpg" alt="#">
+                                            {% for media in car.media.all%}
+                                            <li data-thumb="{{media.image.url}}">
+                                                <img src="{{media.image.url}}" alt="{{media.alt_text}}">
                                             </li>
-                                            <li data-thumb="assets/img/car/single-2.jpg">
-                                                <img src="assets/img/car/single-2.jpg" alt="#">
+                                            {% endfor %}
+                                            <!-- <li data-thumb="/static/frontend/assets/img/car/single-2.jpg">
+                                                <img src="/static/frontend/assets/img/car/single-2.jpg" alt="#">
                                             </li>
-                                            <li data-thumb="assets/img/car/single-3.jpg">
-                                                <img src="assets/img/car/single-3.jpg" alt="#">
+                                            <li data-thumb="/static/frontend/assets/img/car/single-3.jpg">
+                                                <img src="/static/frontend/assets/img/car/single-3.jpg" alt="#">
                                             </li>
-                                            <li data-thumb="assets/img/car/single-4.jpg">
-                                                <img src="assets/img/car/single-4.jpg" alt="#">
-                                            </li>
+                                            <li data-thumb="/static/frontend/assets/img/car/single-4.jpg">
+                                                <img src="/static/frontend/assets/img/car/single-4.jpg" alt="#">
+                                            </li> -->
                                         </ul>
                                     </div>
                                 </div>
@@ -283,7 +285,7 @@
                     </div>
                 </div>
             </div>
-            <div class="car-single-related mt-5">
+            <!-- <div class="car-single-related mt-5">
                 <h3 class="mb-30">Related Listing</h3>
                 <div class="row">
                     <div class="col-md-6 col-lg-4 col-xl-3">
@@ -425,7 +427,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>

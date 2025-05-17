@@ -215,11 +215,13 @@
                 <div class="car-item wow fadeInUp" data-wow-delay=".25s">
                     <div class="car-img">
                         <span class="car-status status-2">Promo</span>
-                        {% for imgg in car.media.all %}
-                            {% if imgg.is_featured %}
-                            <img src="{{imgg.image.url}}" alt="">
-                            {% endif %}
-                        {% endfor %}
+                        {% if car.featured_image %}
+                            <img src="{{car.featured_image.image.url}}" alt="{{car..featured_image.alt_text}}">
+                        {% else %}
+                            <img src="{% static 'images/placeholder.png' %}" alt="No image available">
+                        {% endif %}
+                        
+                        
                         <!-- <img src="{% static 'frontend/assets/img/car/01.jpg' %}" alt=""> -->
                         <div class="car-btns">
                             <a href="#"><i class="far fa-heart"></i></a>

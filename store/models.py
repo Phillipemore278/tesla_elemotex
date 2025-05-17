@@ -3,6 +3,7 @@ import uuid
 from django.db import models
 from django.core.exceptions import ValidationError
 from django.utils.text import slugify
+from django.urls import reverse
 
 def generate_unique_suffix():
     return f"{secrets.token_hex(2)}{str(uuid.uuid4())[:4]}"
@@ -30,6 +31,9 @@ class Category(models.Model):
             self.slug = slugify(self.name)
         super().save(*args, **kwargs)
 
+    def get_absolute_url(self):
+        return reverse("store:category_detail", kwargs={"slug": self.slug})
+
 
 class Car(models.Model):
     category = models.ForeignKey('Category', on_delete=models.SET_NULL, null=True, related_name='cars')
@@ -50,7 +54,6 @@ class Car(models.Model):
     def __str__(self):
         return self.title
     
-
     def save(self, *args, **kwargs):
         if not self.slug:
             base_slug = slugify(self.title)
@@ -59,6 +62,10 @@ class Car(models.Model):
                 slug = f"{base_slug}-{generate_unique_suffix()}"
             self.slug = slug
         super().save(*args, **kwargs)
+
+    @property
+    def featured_image(self):
+        return self.media.filter(is_featured=True).first()
 
 
 class ProductMedia(models.Model):
