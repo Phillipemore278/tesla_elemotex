@@ -12,24 +12,18 @@
                             <li><a href="/cdn-cgi/l/email-protection#82ebece4edc2e7fae3eff2eee7ace1edef"><i class="far fa-envelopes"></i>
                                     <span class="__cf_email__" data-cfemail="8ae3e4ece5caeff2ebe7fae6efa4e9e5e7">[email&#160;protected]</span></a>
                             </li>
-                            <li><a href="tel:+21236547898"><i class="far fa-phone-volume"></i> +2 123 654 7898</a>
+                            <li><a href="tel:+21236547898"><i class="far fa-phone-volume"></i> +1 (469) 208 2690</a>
                             </li>
-                            <li><a href="#"><i class="far fa-alarm-clock"></i> Sun - Fri (08AM - 10PM)</a></li>
+                            <li><a href="#"><i class="far fa-alarm-clock"></i> Mon - Sat (08AM - 10PM)</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="header-top-right">
                     <div class="header-top-link">
                         <a href="#"><i class="far fa-arrow-right-to-arc"></i> Login</a>
-                        <a href="#"><i class="far fa-user-vneck"></i> Register</a>
+                        <!-- <a href="#"><i class="far fa-user-vneck"></i> Register</a> -->
                     </div>
-                    <!-- <div class="header-top-social">
-                        <span>Follow Us: </span>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                    </div> -->
+                    
                 </div>
             </div>
         </div>
@@ -37,7 +31,7 @@
     <div class="main-navigation">
         <nav class="navbar navbar-expand-lg">
             <div class="container position-relative">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="/">
                     <img src="{% static 'frontend/assets/img/logo/logo.png' %}" alt="logo">
                 </a>
                 <div class="mobile-menu-right">
@@ -54,7 +48,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link active" href="{% url 'frontend:home' %}">Home</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'frontend:about' %}">About</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="{% url 'frontend:inventory' %}">Inventory</a>
                         </li>
@@ -72,17 +66,17 @@
                                 {% endfor %}
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{% url 'frontend:contact' %}">Contact</a></li>
                     </ul>
                     <div class="nav-right">
                         <div class="search-btn">
                             <button type="button" class="nav-right-link"><i class="far fa-search"></i></button>
                         </div>
-                        <div class="cart-btn">
+                        <!-- <div class="cart-btn">
                             <a href="#" class="nav-right-link"><i class="far fa-cart-plus"></i><span>0</span></a>
-                        </div>
+                        </div> -->
                         <div class="nav-right-btn mt-2">
-                            <a href="#" class="theme-btn"><span class="far fa-plus-circle"></span>Add Listing</a>
+                            <a href="#" class="theme-btn"><span class="far fa-plus-circle"></span>Sign In</a>
                         </div>
                         <div class="sidebar-btn">
                             <button type="button" class="nav-right-link"><i class="far fa-bars-sort"></i></button>

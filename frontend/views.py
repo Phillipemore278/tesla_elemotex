@@ -14,6 +14,9 @@ def home(request):
     return render(request, 'frontend/index.html', context)
 
 
+def about(request):
+    return render(request, 'frontend/about.html')
+
 def single_car_details(request, slug):
     car = get_object_or_404(Car, slug=slug)
     form = forms.OrderForm()  # Do not bind request.POST here
@@ -38,6 +41,9 @@ def process_order(request):
             return redirect('frontend:single_car_details', slug=slug)
     return redirect('frontend:home')  # fallback
 
+
+def contact(request):
+    return render(request, 'frontend/contact.html')
 
 def inventory(request):
     category_list = Category.objects.all()
