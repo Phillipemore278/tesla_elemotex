@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 import os
+import dj_database_url
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -83,12 +84,30 @@ WSGI_APPLICATION = 'tesla_elemotex.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+if DEBUG:
+
+    DATABASE_POOLER_URL = os.getenv("DATABASE_SESSION_POOLER")
+
+    if DATABASE_POOLER_URL:
+        DATABASES = {
+            'default': dj_database_url.config(default=DATABASE_POOLER_URL, conn_max_age=600),
+        }
+    else:
+        DATABASES = {
+            'default': {
+                'ENGINE': 'django.db.backends.sqlite3',
+                'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),  
+            }
+        }
+else:
+    DATABASE_URL = os.getenv("DATABASE_SESSION_POOLER")
+
+    DATABASES = {
+        'default': dj_database_url.config(DATABASE_URL, conn_max_age=600),
     }
-}
+
+
+# DATABASES = {'default': dj_database_url.config(default=os.environ['DATABASE_URL'])}
 
 # Custom user model
 AUTH_USER_MODEL = "account.Customer"
@@ -129,6 +148,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles_build", "static")
 
 MEDIA_URL =  '/media/'
 
