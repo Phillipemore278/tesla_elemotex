@@ -225,7 +225,7 @@
                         <!-- <img src="{% static 'frontend/assets/img/car/01.jpg' %}" alt=""> -->
                         <div class="car-btns">
                             <a href="#"><i class="far fa-heart"></i></a>
-                            <a href="#"><i class="far fa-arrows-repeat"></i></a>
+                            <a href="{% url 'frontend:single_car_details' car.slug %}"><i class="far fa-arrows-repeat"></i></a>
                         </div>
                     </div>
                     <div class="car-content">
@@ -258,7 +258,7 @@
             
         </div>
         <div class="text-center mt-4">
-            <a href="#" class="theme-btn">Load More <i class="far fa-arrow-rotate-right"></i> </a>
+            <a href="{% url 'frontend:inventory' %}" class="theme-btn">Load More <i class="far fa-arrow-rotate-right"></i> </a>
         </div>
     </div>
 </div>

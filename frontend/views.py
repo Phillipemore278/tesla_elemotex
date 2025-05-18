@@ -4,7 +4,7 @@ from django.shortcuts import get_object_or_404, render
 from store.models import Category, Car, ProductMedia
 
 def home(request):
-    promo_cars = Car.objects.filter(is_on_promo=True)
+    promo_cars = Car.objects.filter(is_on_promo=True)[:8]
 
 
     context = {'promo_cars':promo_cars}
