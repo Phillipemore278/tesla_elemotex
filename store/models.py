@@ -4,6 +4,7 @@ from django.db import models
 from django.core.exceptions import ValidationError
 from django.utils.text import slugify
 from django.urls import reverse
+from cloudinary.models import CloudinaryField
 
 def generate_unique_suffix():
     return f"{secrets.token_hex(2)}{str(uuid.uuid4())[:4]}"
@@ -70,7 +71,8 @@ class Car(models.Model):
 
 class ProductMedia(models.Model):
     product = models.ForeignKey('Car', on_delete=models.CASCADE, related_name='media')
-    image = models.ImageField(upload_to='product_media/')
+    image = CloudinaryField('image', null=True, default=None, blank=True)
+    # image = models.ImageField(upload_to='product_media/')
     alt_text = models.CharField(max_length=255, blank=True)
     is_featured = models.BooleanField(default=False)
 
