@@ -100,10 +100,10 @@ if DEBUG:
             }
         }
 else:
-    DATABASE_URL = os.getenv("DATABASE_SESSION_POOLER")
+    DATABASE_POOLER_URL = os.getenv("DATABASE_SESSION_POOLER")
 
     DATABASES = {
-        'default': dj_database_url.config(DATABASE_URL, conn_max_age=600),
+        'default': dj_database_url.config(DATABASE_POOLER_URL, conn_max_age=600),
     }
 
 
