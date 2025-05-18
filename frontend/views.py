@@ -62,6 +62,13 @@ def inventory(request):
 def promo_car_list(request):
     promo_cars = Car.objects.filter(is_on_promo=True)
 
+    # Pagination
+    paginator = Paginator(promo_cars, 12)
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
 
-    context = {'promo_cars':promo_cars}
+    context = {
+        'promo_cars':page_obj,
+        'page_obj': page_obj,
+        }
     return render(request, 'frontend/promo_cars.html', context)

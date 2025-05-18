@@ -31,20 +31,11 @@
                                     class="far fa-grid-2"></i></a>
                             
                         </div>
-                        <!-- <div class="col-md-3 car-sort-box">
-                            <select class="select">
-                                <option value="1">Sort By Default</option>
-                                <option value="5">Sort By Featured</option>
-                                <option value="2">Sort By Latest</option>
-                                <option value="3">Sort By Low Price</option>
-                                <option value="4">Sort By High Price</option>
-                            </select>
-                        </div> -->
                     </div>
                 </div>
                 <div class="row">
-                    {% for car in car_list %}
-                    <div class="col-md-6 col-lg-4">
+                    {% for car in promo_cars %}
+                    <div class="col-md-4 col-lg-3">
                         <div class="car-item">
                             <div class="car-img">
                                 {% if car.is_on_promo %}
@@ -84,19 +75,23 @@
                 <div class="pagination-area">
                     <div aria-label="Page navigation example">
                         <ul class="pagination">
-                            <li class="page-item">
-                                <a class="page-link" href="#" aria-label="Previous">
-                                    <span aria-hidden="true"><i class="far fa-arrow-left"></i></span>
-                                </a>
-                            </li>
+                            {% if page_obj.has_previous %}
+                                <li class="page-item">
+                                    <a class="page-link" href="?page={{ page_obj.previous_page_number }}&category={{ selected_slug }}" aria-label="Previous">
+                                        <span aria-hidden="true"><i class="far fa-arrow-left"></i></span>
+                                    </a>
+                                </li>
+                            {% endif %}
                             <li class="page-item active"><a class="page-link" href="#">1</a></li>
                             <li class="page-item"><a class="page-link" href="#">2</a></li>
                             <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item">
-                                <a class="page-link" href="#" aria-label="Next">
-                                    <span aria-hidden="true"><i class="far fa-arrow-right"></i></span>
-                                </a>
-                            </li>
+                            {% if page_obj.has_next %}
+                                <li class="page-item">
+                                    <a class="page-link" href="?page={{ page_obj.next_page_number }}&category={{ selected_slug }}" aria-label="Next">
+                                        <span aria-hidden="true"><i class="far fa-arrow-right"></i></span>
+                                    </a>
+                                </li>
+                            {% endif %}
                         </ul>
                     </div>
                 </div>
