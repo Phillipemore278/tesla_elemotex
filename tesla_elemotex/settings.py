@@ -107,7 +107,7 @@ WSGI_APPLICATION = 'tesla_elemotex.wsgi.application'
 #     }
 
 
-# DATABASES = {'default': dj_database_url.config(default=os.environ['DATABASE_URL'])}
+DATABASES = {'default': dj_database_url.config(default=os.environ['DATABASE_URL'])}
 
 # Custom user model
 AUTH_USER_MODEL = "account.Customer"
