@@ -106,8 +106,14 @@ WSGI_APPLICATION = 'tesla_elemotex.wsgi.application'
 #         'default': dj_database_url.config(DATABASE_URL, conn_max_age=600),
 #     }
 
+DATABASE_URL = os.getenv("DATABASE_URL")
 
-DATABASES = {'default': dj_database_url.config(default=os.environ['DATABASE_URL'])}
+DATABASES = {
+    'default': dj_database_url.config(DATABASE_URL, conn_max_age=600),
+}
+
+
+# DATABASES = {'default': dj_database_url.config(default=os.environ['DATABASE_URL'])}
 
 # Custom user model
 AUTH_USER_MODEL = "account.Customer"
