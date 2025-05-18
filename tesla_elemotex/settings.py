@@ -108,6 +108,9 @@ WSGI_APPLICATION = 'tesla_elemotex.wsgi.application'
 
 DATABASE_URL = os.getenv("DATABASE_URL")
 
+if not DATABASE_URL:
+    raise ValueError("DATABASE_URL is not set")
+
 DATABASES = {
     'default': dj_database_url.config(default=DATABASE_URL, conn_max_age=600),
 }
