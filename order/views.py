@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import get_object_or_404, render
 
-# Create your views here.
+from .models import Order
+
+def order_successful(request, order_key):
+    order = get_object_or_404(Order, order_key=order_key)
+    return render(request, 'order/order_successful.html', {'order': order})

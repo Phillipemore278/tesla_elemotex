@@ -1,7 +1,10 @@
 from django.core.paginator import Paginator
-from django.shortcuts import get_object_or_404, render
+from django.shortcuts import get_object_or_404, render, redirect
+from django.contrib import messages
+from django.urls import reverse
 
 from store.models import Category, Car, ProductMedia
+from order import forms 
 
 def home(request):
     promo_cars = Car.objects.filter(is_on_promo=True)[:8]
@@ -13,9 +16,27 @@ def home(request):
 
 def single_car_details(request, slug):
     car = get_object_or_404(Car, slug=slug)
-    
-    context = {'car': car}
+    form = forms.OrderForm()  # Do not bind request.POST here
+    context = {'car': car, 'form': form}
     return render(request, 'frontend/single_car_details.html', context)
+
+
+def process_order(request):
+    if request.method == 'POST':
+        form = forms.OrderForm(request.POST)
+        slug = request.POST.get('car_slug')
+        car = get_object_or_404(Car, slug=slug)
+
+        if form.is_valid():
+            order = form.save(commit=False)  
+            order.car = car                  
+            order.save()                     
+            # messages.success(request, 'Your order was placed successfully.')
+            return redirect('order:order_succesful', order_key=order.order_key)
+        else:
+            messages.error(request, 'Something went wrong, please try again.')
+            return redirect('frontend:single_car_details', slug=slug)
+    return redirect('frontend:home')  # fallback
 
 
 def inventory(request):
