@@ -40,14 +40,14 @@
                             <ul>
                                 <li>
                                     <div class="form-check">
-                                            <input class="form-check-input" type="radio" id="brand" name="category" value="all" {% if selected_slug == "all" %}checked{% elif not selected_slug %}checked{% endif %}>
+                                            <input class="form-check-input category-filter" type="radio" id="brand" name="category" value="all" {% if selected_slug == "all" %}checked{% elif not selected_slug %}checked{% endif %}>
                                             <label class="form-check-label" for="brand"> All Models</label>
                                     </div>
                                 </li>
                                 {% for cat in categories %}
                                     <li>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="category"
+                                            <input class="form-check-input category-filter" type="radio" name="category"
                                                 value="{{ cat.slug }}" id="category_{{ cat.slug }}"
                                                 {% if selected_slug == cat.slug %}checked{% endif %}>
                                             <label class="form-check-label" for="category_{{ cat.slug }}">
@@ -104,7 +104,7 @@
             <div class="col-lg-9">
                 <div class="col-md-12">
                     <div class="car-sort">
-                        <h6>Showing {{ page_obj.paginator.count }} results for {{ selected_category_name }}</h6>
+                        <h6 id="inventory-count">Showing {{ page_obj.paginator.count }} results for {{ selected_category_name }}</h6>
                         <div class="car-sort-list-grid">
                             <!-- <a class="car-sort-grid" href="listing-grid.html"><i
                                     class="far fa-grid-2"></i></a> -->
@@ -121,99 +121,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    {% for car in car_list %}
-                        <div class="col-md-6 col-lg-12">
-                            <div class="car-item">
-                                <div class="car-img">
-                                    {% if car.is_on_promo %}
-                                        <span class="car-status status-2">Promo</span>
-                                    {% endif %}
-                                    {% if car.featured_image %}
-                                        <img src="{{car.featured_image.image.url}}" alt="{{car..featured_image.alt_text}}">
-                                    {% else %}
-                                        <img src="{% static 'images/placeholder.png' %}" alt="No image available">
-                                    {% endif %}
-                                    <div class="car-btns">
-                                        <a href="#"><i class="far fa-heart"></i></a>
-                                        <a href="#"><i class="far fa-arrows-repeat"></i></a>
-                                    </div>
-                                </div>
-                                <div class="car-content">
-                                    <div class="car-top">
-                                        <h4><a href="#">{{car.title}} | {{car.category.model}}</a></h4>
-                                        <!-- <div class="car-rate">
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <i class="fas fa-star"></i>
-                                            <span>5.0 (58.5k Review)</span>
-                                        </div> -->
-                                    </div>
-                                    <ul class="car-list">
-                                        <li><i class="far fa-steering-wheel"></i>{{car.miles}}</li>
-                                        <li><i class="far fa-road"></i>{{car.car_range}}</li>
-                                        <li><i class="far fa-car"></i>Year: {{car.year}}</li>
-                                        <li><i class="far fa-steering-wheel"></i>{{car.top_speed}}</li>
-                                    </ul>
-                                    <p>
-                                        {{car.description}}
-                                    </p>
-                                    <div class="car-footer">
-                                        <span class="car-price">${{car.price|intcomma}}</span>
-                                        <a href="{% url 'frontend:single_car_details' car.slug %}" class="theme-btn"><span class="far fa-eye"></span>Order Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    {% endfor %}
+                <div class="row" id="car-list">
+                    {% include 'frontend/partials/car_list.html' %}
+                </div>
+                    
                 <!-- pagination -->
-                <div class="pagination-area">
-                    <div aria-label="Page navigation example">
-                        <ul class="pagination">
-                            {% if page_obj.has_previous %}
-                                <li class="page-item">
-                                    <a class="page-link" href="?page={{ page_obj.previous_page_number }}&category={{ selected_slug }}" aria-label="Previous">
-                                        <span aria-hidden="true"><i class="far fa-arrow-left"></i></span>
-                                    </a>
-                                </li>
-                            {% endif %}
-                        
-                            {# Show first page and leading ellipsis if needed #}
-                            {% if 1 not in custom_page_range %}
-                                <li class="page-item"><a class="page-link" href="?page=1&category={{ selected_slug }}">1</a></li>
-                                {% if 2 not in custom_page_range %}
-                                    <li class="page-item disabled"><span class="page-link">…</span></li>
-                                {% endif %}
-                            {% endif %}
-                        
-                            {# Loop through the smart range #}
-                            {% for i in custom_page_range %}
-                                <li class="page-item {% if i == page_obj.number %}active{% endif %}">
-                                    <a class="page-link" href="?page={{ i }}&category={{ selected_slug }}">{{ i }}</a>
-                                </li>
-                            {% endfor %}
-                        
-                            {# Show trailing ellipsis and last page if needed #}
-                            {% if total_pages not in custom_page_range %}
-                                {% if total_pages|add:"-1" not in custom_page_range %}
-                                    <li class="page-item disabled"><span class="page-link">…</span></li>
-                                {% endif %}
-                                <li class="page-item"><a class="page-link" href="?page={{ total_pages }}&category={{ selected_slug }}">{{ total_pages }}</a></li>
-                            {% endif %}
-                        
-                            {% if page_obj.has_next %}
-                                <li class="page-item">
-                                    <a class="page-link" href="?page={{ page_obj.next_page_number }}&category={{ selected_slug }}" aria-label="Next">
-                                        <span aria-hidden="true"><i class="far fa-arrow-right"></i></span>
-                                    </a>
-                                </li>
-                            {% endif %}
-                        </ul>
-                        
-                        
-                    </div>
+                <div class="pagination-area" id="pagination">
+                    {% include 'frontend/partials/pagination.html' %}
                 </div>
                 <!-- pagination end -->
             </div>
@@ -223,11 +137,70 @@
 <!-- car area end -->
 
 
-<script>
+<!-- <script>
     document.querySelectorAll('.form-check-input').forEach(input => {
         input.addEventListener('change', () => {
             document.getElementById('category-filter-form').submit();
         });
     });
+</script> -->
+
+<script>
+    const ajaxUrl = "{% url 'frontend:inventory_ajax' %}";
+
+    function attachCategoryFilter() {
+        document.querySelectorAll('.category-filter').forEach(input => {
+            input.addEventListener('change', function () {
+                const selectedCategory = this.value;
+                loadInventory(selectedCategory, 1);
+            });
+        });
+    }
+    
+    function attachPaginationLinks() {
+        document.querySelectorAll('.pagination-link').forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                const page = this.dataset.page;
+                const category = this.dataset.category;
+                loadInventory(category, page);
+            });
+        });
+    }
+    
+    function loadInventory(category, page) {
+        fetch(`${ajaxUrl}?category=${category}&page=${page}`)
+            .then(response => response.json())
+            .then(data => {
+                // console.log(data.pagination_html);
+                
+                // Check if elements exist before trying to update them
+                const carListElement = document.querySelector('#car-list');
+                const paginationElement = document.querySelector('#pagination');
+                const inventoryCount = document.querySelector('#inventory-count')
+                
+                if (carListElement && paginationElement) {
+                    carListElement.innerHTML = data.html;
+                    paginationElement.innerHTML = data.pagination_html;
+                    // Update the inventory count text
+                    inventoryCount.innerHTML = `Showing ${data.total_count} results for ${data.selected_category_name}`;
+                } else {
+                    console.error('Could not find #car-list or #pagination element.');
+                }
+                
+                // Reattach listeners to new pagination and filters
+                attachPaginationLinks();
+            })
+            .catch(error => {
+                console.error('Error fetching inventory:', error);
+            });
+    }
+    
+    // Initial attach on page load
+    attachCategoryFilter();
+    attachPaginationLinks();
 </script>
+
+    
+    
 {% endblock %}

@@ -1,0 +1,79 @@
+{% load static %}
+{% load humanize %}
+
+{% for car in car_list %}
+    <div class="col-md-6 col-lg-12">
+        <div class="car-item">
+            <div class="car-img">
+                {% if car.is_on_promo %}
+                    <span class="car-status status-2">Promo</span>
+                {% endif %}
+                {% if car.featured_image %}
+                    <img src="{{car.featured_image.image.url}}" alt="{{car.featured_image.alt_text}}">
+                {% else %}
+                    <img src="{% static 'images/placeholder.png' %}" alt="No image available">
+                {% endif %}
+                <div class="car-btns">
+                    <a href="#"><i class="far fa-heart"></i></a>
+                    <a href="#"><i class="far fa-arrows-repeat"></i></a>
+                </div>
+            </div>
+            <div class="car-content">
+                <div class="car-top">
+                    <h4><a href="#">{{car.title}} | {{car.category.model}}</a></h4>
+                </div>
+                <ul class="car-list">
+                    <li><i class="far fa-steering-wheel"></i>{{car.miles}}</li>
+                    <li><i class="far fa-road"></i>{{car.car_range}}</li>
+                    <li><i class="far fa-car"></i>Year: {{car.year}}</li>
+                    <li><i class="far fa-steering-wheel"></i>{{car.top_speed}}</li>
+                </ul>
+                <p>{{car.description}}</p>
+                <div class="car-footer">
+                    <span class="car-price">${{car.price|intcomma}}</span>
+                    <a href="{% url 'frontend:single_car_details' car.slug %}" class="theme-btn"><span class="far fa-eye"></span>Order Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+
+<!-- {% for car in car_list %}
+<div class="col-md-6 col-lg-12">
+    <div class="car-item">
+        <div class="car-img">
+            {% if car.is_on_promo %}
+                <span class="car-status status-2">Promo</span>
+            {% endif %}
+            {% if car.featured_image %}
+                <img src="{{car.featured_image.image.url}}" alt="{{car..featured_image.alt_text}}">
+            {% else %}
+                <img src="{% static 'images/placeholder.png' %}" alt="No image available">
+            {% endif %}
+            <div class="car-btns">
+                <a href="#"><i class="far fa-heart"></i></a>
+                <a href="#"><i class="far fa-arrows-repeat"></i></a>
+            </div>
+        </div>
+        <div class="car-content">
+            <div class="car-top">
+                <h4><a href="#">{{car.title}} | {{car.category.model}}</a></h4>
+                
+            </div>
+            <ul class="car-list">
+                <li><i class="far fa-steering-wheel"></i>{{car.miles}}</li>
+                <li><i class="far fa-road"></i>{{car.car_range}}</li>
+                <li><i class="far fa-car"></i>Year: {{car.year}}</li>
+                <li><i class="far fa-steering-wheel"></i>{{car.top_speed}}</li>
+            </ul>
+            <p>
+                {{car.description}}
+            </p>
+            <div class="car-footer">
+                <span class="car-price">${{car.price|intcomma}}</span>
+                <a href="{% url 'frontend:single_car_details' car.slug %}" class="theme-btn"><span class="far fa-eye"></span>Order Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %} -->
