@@ -25,12 +25,12 @@
                     <div class="footer-widget-box list">
                         <h4 class="footer-widget-title">Quick Links</h4>
                         <ul class="footer-list">
-                            <li><a href="#"><i class="fas fa-caret-right"></i> About Us</a></li>
-                            <li><a href="#"><i class="fas fa-caret-right"></i> Update News</a></li>
-                            <li><a href="#"><i class="fas fa-caret-right"></i> Testimonials</a></li>
+                            <li><a href="{% url 'frontend:about' %}"><i class="fas fa-caret-right"></i> About Us</a></li>
+                            <li><a href="{% url 'frontend:about' %}"><i class="fas fa-caret-right"></i> Update News</a></li>
+                            <li><a href="{% url 'frontend:contact' %}"><i class="fas fa-caret-right"></i> Contact Us</a></li>
                             <li><a href="#"><i class="fas fa-caret-right"></i> Terms Of Service</a></li>
                             <li><a href="#"><i class="fas fa-caret-right"></i> Privacy policy</a></li>
-                            <li><a href="#"><i class="fas fa-caret-right"></i> Promo</a></li>
+                            <li><a href="{% url 'frontend:promo_car_list' %}"><i class="fas fa-caret-right"></i> Promo</a></li>
                         </ul>
                     </div>
                 </div>
@@ -38,11 +38,11 @@
                     <div class="footer-widget-box list">
                         <h4 class="footer-widget-title">Support Center</h4>
                         <ul class="footer-list">
-                            <li><a href="#"><i class="fas fa-caret-right"></i> FAQ's</a></li>
+                            <li><a href="/"><i class="fas fa-caret-right"></i> FAQ's</a></li>
                             <li><a href="#"><i class="fas fa-caret-right"></i> Affiliates</a></li>
-                            <li><a href="#"><i class="fas fa-caret-right"></i> Booking Tips</a></li>
-                            <li><a href="#"><i class="fas fa-caret-right"></i> Sell Vehicles</a></li>
-                            <li><a href="#"><i class="fas fa-caret-right"></i> Contact Us</a></li>
+                            <li><a href="{% url 'frontend:inventory' %}"><i class="fas fa-caret-right"></i> Inventory</a></li>
+                            <li><a href="{% url 'frontend:inventory' %}"><i class="fas fa-caret-right"></i> Models</a></li>
+                            <li><a href="{% url 'frontend:contact' %}"><i class="fas fa-caret-right"></i> Contact Us</a></li>
                             <li><a href="#"><i class="fas fa-caret-right"></i> Sitemap</a></li>
                         </ul>
                     </div>
@@ -74,14 +74,7 @@
                         &copy; Copyright <span id="date"></span> <a href="#"> TESLA ELEMOTEX </a> All Rights Reserved.
                     </p>
                 </div>
-                <!-- <div class="col-md-6 align-self-center">
-                    <ul class="footer-social">
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                    </ul>
-                </div> -->
+                
             </div>
         </div>
     </div>

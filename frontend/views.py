@@ -7,6 +7,9 @@ from store.models import Category, Car, ProductMedia
 from order import forms 
 
 def home(request):
+    if request.user.is_authenticated:
+        return redirect('account:dashboard')
+    
     promo_cars = Car.objects.filter(is_on_promo=True)[:8]
 
 
@@ -15,6 +18,9 @@ def home(request):
 
 
 def about(request):
+    if request.user.is_authenticated:
+        return redirect('account:dashboard')
+    
     return render(request, 'frontend/about.html')
 
 def single_car_details(request, slug):
@@ -43,6 +49,8 @@ def process_order(request):
 
 
 def contact(request):
+    if request.user.is_authenticated:
+        return redirect('account:dashboard')
     return render(request, 'frontend/contact.html')
 
 def inventory(request):

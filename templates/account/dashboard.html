@@ -1,0 +1,105 @@
+{% extends '../frontend/base.html' %}
+{% load static %}
+{% load humanize %}
+
+{% block content %}
+
+<style>
+    .table-condensed{
+        font-size: 14px;
+    }
+
+    .table-condensed .btn{
+        padding: 3px 8px;
+        font-size: 12px;
+    }
+
+</style>
+
+<!-- breadcrumb -->
+<div class="site-breadcrumb" style="background: url(/static/frontend/assets/img/breadcrumb/01.jpg)">
+    <div class="container">
+        <h2 class="breadcrumb-title">Dashboard</h2>
+        <ul class="breadcrumb-menu">
+            <li><a href="{% url 'account:logout' %}">Logout</a></li>
+            <li class="active">Dashboard</li>
+        </ul>
+    </div>
+</div>
+<!-- breadcrumb end -->
+
+<div class="container pt-5 pb-3">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Dashboard</h1>
+            <div class="row justify-content-between align-item-center">
+              <div class="col-6 col-md-10">
+                <p class="lead mb-0">Welcome <span class="text-success fw-bold">Admin</span></p>
+              </div>
+              <div class="col-6 col-md-2">
+                  <p><a href="" class="btn btn-outline-secondary btn-sm fw-bold px-4">Settings</a> </p>  
+                  <!-- <a href="" class="btn btn-primary btn-sm fw-bold">Add new Product</a> -->
+              </div>
+            </div>
+            
+            {% if messages %}
+              {% for message in messages %}
+                  <div class="alert alert-success alert-dismissible fade show" role="alert">
+                      {{message}}
+                      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                  </div>
+              {% endfor %}
+            {% endif %}
+                    
+            <hr class="mt-0">
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row py-5">
+        <div class="col-md-12">
+            <h4 class="text-center text-primary">List of Customer Orders</h4>
+            <hr>
+            <div class="card">
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-condensed">
+                            <thead>
+                              <tr>
+                                <th scope="col">Order Key</th>
+                                <th scope="col">Customer Name</th>
+                                <th scope="col">Customer Email</th>
+                                <th scope="col">Phone Number</th>
+                                <th scope="col">City</th>
+                                <th scope="col">Zip Code</th>
+                                <th scope="col">Car Ordered</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Date</th>
+                                
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {% for order in order_list %}
+                              <tr>
+                                <td>{{order.order_key}}</td>
+                                <td>{{order.full_name}}</td>
+                                <td>{{order.email}}</td>
+                                <td>{{order.phone_number}}</td>
+                                <td>{{order.city}}</td>
+                                <td>{{order.zip_code}}</td>
+                                <td>{{order.car.title}}</td>
+                                <td>${{order.car.price|intcomma}}</td>
+                                <td>${{order.date_created}}</td>
+                              </tr>
+                              {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

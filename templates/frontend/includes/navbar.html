@@ -20,7 +20,7 @@
                 </div>
                 <div class="header-top-right">
                     <div class="header-top-link">
-                        <a href="#"><i class="far fa-arrow-right-to-arc"></i> Login</a>
+                        <!-- <a href="#"><i class="far fa-arrow-right-to-arc"></i> Login</a> -->
                         <!-- <a href="#"><i class="far fa-user-vneck"></i> Register</a> -->
                     </div>
                     
@@ -67,6 +67,12 @@
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="{% url 'frontend:contact' %}">Contact</a></li>
+
+                        {% if request.user.is_authenticated %}
+                            <li class="nav-item d-md-none"><a class="nav-link" href="{% url 'account:logout' %}">Logout</a></li>
+                        {% else %}
+                            <li class="nav-item d-md-none"><a class="nav-link" href="{% url 'account:login' %}">Login</a></li>
+                        {% endif %}
                     </ul>
                     <div class="nav-right">
                         <div class="search-btn">
@@ -75,9 +81,15 @@
                         <!-- <div class="cart-btn">
                             <a href="#" class="nav-right-link"><i class="far fa-cart-plus"></i><span>0</span></a>
                         </div> -->
+                        {% if request.user.is_authenticated %}
                         <div class="nav-right-btn mt-2">
-                            <a href="#" class="theme-btn"><span class="far fa-plus-circle"></span>Sign In</a>
+                            <a href="{% url 'account:logout' %}" class="theme-btn"><span class="far fa-plus-circle"></span>Logout</a>
                         </div>
+                        {% else %}
+                        <div class="nav-right-btn mt-2">
+                            <a href="{% url 'account:login' %}" class="theme-btn"><span class="far fa-plus-circle"></span>Sign In</a>
+                        </div>
+                        {% endif %}
                         <div class="sidebar-btn">
                             <button type="button" class="nav-right-link"><i class="far fa-bars-sort"></i></button>
                         </div>

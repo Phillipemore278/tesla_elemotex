@@ -1,0 +1,49 @@
+{% extends '../frontend/base.html' %}
+{% load static %}
+{% load humanize %}
+
+{% block content %}
+<!-- breadcrumb -->
+<div class="site-breadcrumb" style="background: url(/static/frontend/assets/img/breadcrumb/01.jpg)">
+    <div class="container">
+        <h2 class="breadcrumb-title">Sign In</h2>
+        <ul class="breadcrumb-menu">
+            <li><a href="{% url 'frontend:home' %}">Home</a></li>
+            <li class="active">Sign In</li>
+        </ul>
+    </div>
+</div>
+<!-- breadcrumb end -->
+
+
+<!-- login form  -->
+<div class="container py-5">
+    <div class="row align-items-center justify-content-center">
+        <div class="col-md-6 text-center">
+            <div class="card shadow bg-light">
+                <div class="card-body px-5">
+                    <h4 class="mb-3">Sign In</h4>
+                    <hr class="mb-3">
+                    {% if messages %}
+                        {% for message in messages %}
+                            <div class="alert alert-danger">{{ message }}</div>
+                        {% endfor %}
+                    {% endif %}
+                    <form action="." method="post">
+                        {% csrf_token %}
+
+                        <div class="form-group">
+                            {{form.username}}
+                        </div>
+                        <div class="form-group">
+                            {{form.password}}
+                        </div>
+                        <button type="submit" class="btn btn-danger w-100 bt-sm fw-bold">Login</button>
+                    </form>
+                </div>  
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
