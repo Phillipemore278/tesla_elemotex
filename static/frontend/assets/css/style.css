@@ -748,7 +748,8 @@ label {
 #scroll-top {
   position: fixed;
   bottom: -20px;
-  right: 30px;
+  /* right: 30px; */
+  left: 30px;
   z-index: 99;
   font-size: 20px;
   border: none;
